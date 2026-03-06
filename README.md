@@ -8,7 +8,7 @@ The website presents my data analytics projects, technical skills, and professio
 
 You can visit the portfolio here:
 
-[https://daniele1388.github.io/portfolio](https://daniele1388.github.io/)
+[https://daniele1388.github.io](https://daniele1388.github.io/)
 
 ## Technologies
 
