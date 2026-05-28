@@ -262,4 +262,4 @@ function updateConcept() {
 }
 
 updateConcept();
-setInterval(updateConcept, 5000);
+setInterval(updateConcept, 10000);
