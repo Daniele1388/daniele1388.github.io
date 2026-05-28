@@ -14,4 +14,5 @@ You can visit the portfolio here:
 
 - HTML
 - CSS
+- JavaScript
 - GitHub Pages
