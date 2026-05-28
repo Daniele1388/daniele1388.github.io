@@ -251,15 +251,11 @@ const dataConcepts = [
   }
 ];
 
-let index = 0;
+const today = new Date();
+const startOfYear = new Date(today.getFullYear(), 0, 0);
+const dayOfYear = Math.floor((today - startOfYear) / 86400000);
+const concept = dataConcepts[dayOfYear % dataConcepts.length];
 
-function updateConcept() {
-  const concept = dataConcepts[index % dataConcepts.length];
-  document.getElementById("concept-title").textContent = concept.title;
-  document.getElementById("concept-category").textContent = concept.category;
-  document.getElementById("concept-definition").textContent = concept.definition;
-  index++;  
-}
-
-updateConcept();
-setInterval(updateConcept, 10000);
+document.getElementById("concept-title").textContent = concept.title;
+document.getElementById("concept-category").textContent = concept.category;
+document.getElementById("concept-definition").textContent = concept.definition;
