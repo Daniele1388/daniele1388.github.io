@@ -254,7 +254,7 @@ const dataConcepts = [
 let index = 0;
 
 function updateConcept() {
-  const concept = dataConcepts[index % dataConcepts.lenght];
+  const concept = dataConcepts[index % dataConcepts.length];
   document.getElementById("concept-title").textContent = concept.title;
   document.getElementById("concept-category").textContent = concept.category;
   document.getElementById("concept-definition").textContent = concept.definition;
